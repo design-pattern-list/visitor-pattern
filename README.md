@@ -12,10 +12,10 @@ The visitor design pattern gives you the ability to *add new operations to exist
 
 ### Structure
 
-![alt text](https://i.gyazo.com/aaca0d765ef8a3039bf52c554a7552c6.png"Visitor Design Pattern")
+![alt text](https://i.gyazo.com/aaca0d765ef8a3039bf52c554a7552c6.png "Visitor Design Pattern")
 
 ### Example
-![alt text](https://i.gyazo.com/301a0af9277f6ce0e327a61a1c7bcd7e.png"Visitor Design Pattern")
+![alt text](https://i.gyazo.com/301a0af9277f6ce0e327a61a1c7bcd7e.png "Visitor Design Pattern")
 
 ### References
 1. https://refactoring.guru/design-patterns/visitor
