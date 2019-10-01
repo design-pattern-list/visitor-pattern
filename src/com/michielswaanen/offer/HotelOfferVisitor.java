@@ -4,7 +4,7 @@ import com.michielswaanen.creditcard.BronzeCreditCard;
 import com.michielswaanen.creditcard.GoldCreditCard;
 import com.michielswaanen.creditcard.SilverCreditCard;
 
-public class HotelOfferVisitor implements OfferVisitor {
+public class HotelOfferVisitor implements IOfferVisitor {
 
     @Override
     public void visitBronzeCreditCard(BronzeCreditCard bronze) {

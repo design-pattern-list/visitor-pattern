@@ -1,8 +1,8 @@
 package com.michielswaanen.creditcard;
 
-import com.michielswaanen.offer.OfferVisitor;
+import com.michielswaanen.offer.IOfferVisitor;
 
-public class GoldCreditCard implements CreditCard {
+public class GoldCreditCard implements ICreditCard {
 
     @Override
     public String getName() {
@@ -10,7 +10,7 @@ public class GoldCreditCard implements CreditCard {
     }
 
     @Override
-    public void accept(OfferVisitor v) {
+    public void accept(IOfferVisitor v) {
         v.visitGoldCreditCard(this);
     }
 }
